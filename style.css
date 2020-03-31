@@ -24,6 +24,20 @@
 	border-right: 5px solid #017bf5;
 	background:rgba(0, 0, 0, 0.05);
 }
+.widget-ad {
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 5%;
+}
+.widget-ad::before {
+	display: block;
+	content: "advertisement";
+	font-size: 5em;
+	position: relative;
+	margin-top: -30px;
+	color: rgb(51, 129, 192);
+	letter-spacing: .05em;
+}
 .main p{
 	position: relative;
 	height: auto;
