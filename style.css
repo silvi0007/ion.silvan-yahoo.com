@@ -40,6 +40,7 @@
 }
 .main p{
 	position: relative;
+	line-height: 0;
 	height: auto;
 	width: 100%;
 	text-align: center;
@@ -50,13 +51,13 @@
 }
 .main .gallery{
 	position: relative;
-	height: auto;
-	width: 90%;
+	height: 100%;
+	width: 100%;
 	margin: auto;
-	padding: 45px 0;
+	padding: 40px 0;
 	display: grid;
-	grid-template-columns: auto auto auto auto; /*i write auto four time because we want four rows*/
-	grid-gap: 2vh;
+	grid-template-columns: auto auto auto auto; /*i write auto three time because we want four rows*/
+	grid-gap: 1vh;
 	grid-auto-flow: dense;
 }
 .main .gallery .img{
