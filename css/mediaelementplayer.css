@@ -62,7 +62,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__embed,
 .mejs__embed body {
-    background: #000;
+    background: rgb(170, 58, 58);
     height: 100%;
     margin: 0;
     overflow: hidden;
